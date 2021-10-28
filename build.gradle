@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath "${com.safetyculture.iauditor.buildsrc.Libs.Android.Gradle.plugin}"
+        classpath libs.android.gradle
     }
 }
 
